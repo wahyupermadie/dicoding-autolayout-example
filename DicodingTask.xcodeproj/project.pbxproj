@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8934B0982466D255000B1205 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934B0972466D255000B1205 /* DetailViewController.swift */; };
+		8934B09A2466D615000B1205 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934B0992466D615000B1205 /* AcademiesViewController.swift */; };
 		89490ECC245DB29600D84532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89490ECB245DB29600D84532 /* AppDelegate.swift */; };
 		89490ECE245DB29600D84532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89490ECD245DB29600D84532 /* SceneDelegate.swift */; };
 		89490ED0245DB29600D84532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89490ECF245DB29600D84532 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8934B0972466D255000B1205 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8934B0992466D615000B1205 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
 		89490EC8245DB29600D84532 /* DicodingTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicodingTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89490ECB245DB29600D84532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89490ECD245DB29600D84532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8934B0962466B01B000B1205 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89490ECF245DB29600D84532 /* ViewController.swift */,
+				8934B0972466D255000B1205 /* DetailViewController.swift */,
+				8934B0992466D615000B1205 /* AcademiesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		89490EBF245DB29600D84532 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,9 @@
 		89490ECA245DB29600D84532 /* DicodingTask */ = {
 			isa = PBXGroup;
 			children = (
+				8934B0962466B01B000B1205 /* ViewController */,
 				89490ECB245DB29600D84532 /* AppDelegate.swift */,
 				89490ECD245DB29600D84532 /* SceneDelegate.swift */,
-				89490ECF245DB29600D84532 /* ViewController.swift */,
 				89490ED1245DB29600D84532 /* Main.storyboard */,
 				89490ED4245DB29700D84532 /* Assets.xcassets */,
 				89490ED6245DB29700D84532 /* LaunchScreen.storyboard */,
@@ -140,7 +154,9 @@
 			files = (
 				89490ED0245DB29600D84532 /* ViewController.swift in Sources */,
 				89490ECC245DB29600D84532 /* AppDelegate.swift in Sources */,
+				8934B09A2466D615000B1205 /* AcademiesViewController.swift in Sources */,
 				89490ECE245DB29600D84532 /* SceneDelegate.swift in Sources */,
+				8934B0982466D255000B1205 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
