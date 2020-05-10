@@ -57,7 +57,11 @@ class AcademiesViewController: UIViewController {
         }
         
         // Kode dibawah digunakan untuk berpindah ke halaman detail dengan membawa informasi yang sesuai
-        self.navigationController?.pushViewController(controller, animated: true)
+        // Nvaigate with detail version
+        self.present(controller, animated: true, completion: nil)
+        
+        // Navigate with new page
+        // self.navigationController?.pushViewController(controller, animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation
